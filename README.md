@@ -1,4 +1,4 @@
-# DICE
+# DICE GAME
 When you roll the dice program calculates whih number is bigger among both of the dices and prints the player who got the larger number.
 If both the players get the same number, the result will be printed as "Draw".
 ## Screenshots
