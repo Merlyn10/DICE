@@ -1,0 +1,100 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+body {
+    height: 100vh;
+    background-color:#221a31;
+}
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #fdd3f7;
+}
+h2 {
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  animation: flicker 2s infinite alternate;  
+}
+div {
+  margin: 20px;
+}
+p {
+  font-size: 2rem;
+  color: #4e2b77;
+  margin:20px;
+  background-color: #d9bcfb;
+  border-radius: 10px;
+}
+img{
+    padding:30px;
+    height:130px;
+}
+.roll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button {
+  height: 50px;
+  width:150px;
+  font-family: 'EB Garamond', serif;
+  font-size: large;
+  background-image:linear-gradient( #d6dcea,#29b5e8)
+}
+
+/* Flickering animation */
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 60% {
+    color: #fff;
+    text-shadow:
+  0 0 7px #a6bbd6,
+  0 0 10px #8c9cbb,
+  0 0 21px #7f92bf,
+  0 0 42px #50748e,
+  0 0 82px #3a5181,
+  0 0 92px  #285a79,
+  0 0 102px #263862,
+  0 0 151px rgb(33, 82, 91);
+  
+  }
+  20%, 24% {        
+      text-shadow: none;
+  }    
+}
+h1 {
+    color: #fff;
+    text-shadow:
+    0 0 2px #c094bd,
+    0 0 4px #c094bd,
+    0 0 6px #c397c1,
+    0 0 10px #c16cb4,
+    0 0 45px #c16cb4,
+    0 0 50px  #bc5aad,
+    0 0 70px #784471,
+    0 0 80px #784471;
+
+  }
+  h1 {
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;padding:1.5px;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #bc13fe,
+                0 0 0.8rem #bc13fe,
+                0 0 2.8rem #bc13fe,
+                inset 0 0 1.3rem #bc13fe;
+  }    
+
+
+  

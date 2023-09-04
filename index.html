@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>The Dice Game</h1>
+      
+      <div class="dice" style="border: 2px solid white; background-color:rgb(49, 48, 48)">
+         <p style="border:1px solid;"><b>Player 1</b></p>
+         <img id="img1"class="img1" src="Images/img6.png" alt="dice">
+      </div>
+
+      <div class="dice" style="border: 2px solid white; background-color: rgb(49, 48, 48);">
+         <p style="border:1px solid;"><b>Player 2</b></p>
+         <img id="img2" class="img2" src="Images/img6.png" alt="dice">
+      </div>
+    </div>
+    <div class="roll">
+    <button id="roll"><b>ROLL</b></button>
+    <h2 id="res"></h2>
+  </div>
+  
+  <div id="die1" class="dice"></div>
+ <div id="die2" class="dice"></div>
+  </body>
+</html>
+<script src="code.js"></script>
